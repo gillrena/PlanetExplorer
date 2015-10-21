@@ -43,7 +43,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testPlanetExplorerMoveAndTurnFromLanding() {
+	public void testPlanetExplorerMoveForwardTwiceAndTurnRightThenMoveForwardTwiceAgainFromLanding() {
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "", "");
 		String expectResult = planetExplorer.executeCommand("ffrff");
 		System.out.println(expectResult);
