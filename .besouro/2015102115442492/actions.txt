@@ -1,2 +1,10 @@
 FileOpenedAction 1445431464371 TestPlanetExplorer.java 390 1 0 0
 EditAction 1445431496624 TestPlanetExplorer.java 457 1 3 1
+UnitTestCaseAction 1445431501428 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431501431 TestPlanetExplorer FAIL
+RefactoringAction 1445431665443 PlanetExplorer.java ADD String result FIELD
+RefactoringAction 1445431667506 PlanetExplorer.java ADD PlanetExplorer explorer FIELD
+RefactoringAction 1445431667507 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1445431677549 PlanetExplorer.java ADD String result FIELD
+RefactoringAction 1445431711483 PlanetExplorer.java ADD PlanetExplorer explorer FIELD
+EditAction 1445431724773 PlanetExplorer.java 3145 3 6 0
