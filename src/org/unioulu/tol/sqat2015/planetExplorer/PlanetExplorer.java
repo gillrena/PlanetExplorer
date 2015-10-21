@@ -29,12 +29,8 @@ public class PlanetExplorer {
 		obstacles = obstacles1;
 		
 	}
-	/*int x = 0;
-	int y = 0;
-	String facing = "";
-	String obstacles = "";
-	PlanetExplorer explorer = new PlanetExplorer(x, y, facing, obstacles);*/
-	PlanetExplorer explorer = new PlanetExplorer(x,y,facing,obstacles);
+	
+	PlanetExplorer explorer = new PlanetExplorer(x, y, facing, obstacles);
 	
 	public String executeCommand(String command){
 		

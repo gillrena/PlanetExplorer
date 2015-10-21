@@ -149,3 +149,8 @@ CompilationAction 1445432388073 PlanetExplorer.java
 CompilationAction 1445432388073 PlanetExplorer.java
 CompilationAction 1445432388227 PlanetExplorer.java
 EditAction 1445432398732 PlanetExplorer.java 3326 3 10 0
+UnitTestCaseAction 1445432407211 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432407212 TestPlanetExplorer FAIL
+RefactoringAction 1445432453416 PlanetExplorer.java REMOVE explorer FIELD
+RefactoringAction 1445432469497 PlanetExplorer.java ADD PlanetExplorer explorer FIELD
+EditAction 1445432481911 PlanetExplorer.java 3182 3 10 0
