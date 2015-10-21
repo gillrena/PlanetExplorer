@@ -20,6 +20,6 @@ public class TestPlanetExplorer {
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "", "");
 		String expectResult = planetExplorer.executeCommand("l");
 		System.out.println(expectResult);
-		assertEquals("(0,0,N)", expectResult);
+		assertEquals("(0,0,W)", expectResult);
 	}
 }
