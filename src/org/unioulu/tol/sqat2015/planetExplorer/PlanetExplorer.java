@@ -45,7 +45,6 @@ public class PlanetExplorer {
 		 */
 		String result = "";
 		
-		
 		if(command == ""){
 			result = "(0,0,N)"+ explorer.obstacles;
 		}else{
