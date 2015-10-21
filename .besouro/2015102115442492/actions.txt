@@ -257,3 +257,10 @@ EditAction 1445433286233 TestPlanetExplorer.java 776 2 8 2
 UnitTestCaseAction 1445433287809 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445433287809 TestPlanetExplorer FAIL
 EditAction 1445433302373 TestPlanetExplorer.java 780 2 8 2
+UnitTestCaseAction 1445433304022 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445433304022 TestPlanetExplorer OK
+RefactoringAction 1445433312396 TestPlanetExplorer.java ADD void testPlanetExplorerTurningLeftFromLanding()/2 METHOD
+RefactoringAction 1445433316905 TestPlanetExplorer.java RENAME testPlanetExplorerTurningLeftFromLanding()/2=>void testPlanetExplorerTurningReftFromLanding() METHOD
+RefactoringAction 1445433317915 TestPlanetExplorer.java RENAME testPlanetExplorerTurningReftFromLanding()=>void testPlanetExplorerTurningRigheftFromLanding() METHOD
+RefactoringAction 1445433319426 TestPlanetExplorer.java RENAME testPlanetExplorerTurningRigheftFromLanding()=>void testPlanetExplorerTurningRighFromLanding() METHOD
+EditAction 1445433320354 TestPlanetExplorer.java 1072 3 12 3
