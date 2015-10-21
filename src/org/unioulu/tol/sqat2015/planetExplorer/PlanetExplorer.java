@@ -18,10 +18,10 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		if(x1==0 && y1==0){
-			facing = "N";
+			facing1 = "N";
 		}
 		if(facing1=="" || facing1 == null){
-			facing = "N";
+			facing1 = "N";
 		}
 		x = x1;
 		y = y1;
