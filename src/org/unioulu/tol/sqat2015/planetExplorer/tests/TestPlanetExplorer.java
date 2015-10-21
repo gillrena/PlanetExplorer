@@ -11,7 +11,6 @@ public class TestPlanetExplorer {
 	public void testPlanetLanding() {
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "", "");
 		String expectResult = planetExplorer.executeCommand("");
-		System.out.println(expectResult);
 		assertEquals("(100,100,N)", expectResult);
 	}
 	
@@ -19,7 +18,6 @@ public class TestPlanetExplorer {
 	public void testPlanetExplorerTurningLeftFromLanding() {
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "", "");
 		String expectResult = planetExplorer.executeCommand("l");
-		System.out.println(expectResult);
 		assertEquals("(100,100,W)", expectResult);
 	}
 	
@@ -27,7 +25,6 @@ public class TestPlanetExplorer {
 	public void testPlanetExplorerTurningRightFromLanding() {
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "", "");
 		String expectResult = planetExplorer.executeCommand("r");
-		System.out.println(expectResult);
 		assertEquals("(100,100,E)", expectResult);
 	}
 	

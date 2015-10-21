@@ -271,3 +271,6 @@ RefactoringAction 1445433335484 TestPlanetExplorer.java ADD void testPlanetExplo
 EditAction 1445433345266 TestPlanetExplorer.java 1363 4 16 4
 EditAction 1445433348912 TestPlanetExplorer.java 1363 4 16 4
 EditAction 1445433357980 TestPlanetExplorer.java 1363 4 16 4
+UnitTestCaseAction 1445433360221 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433360221 TestPlanetExplorer FAIL
+EditAction 1445433379748 TestPlanetExplorer.java 1252 4 13 4
