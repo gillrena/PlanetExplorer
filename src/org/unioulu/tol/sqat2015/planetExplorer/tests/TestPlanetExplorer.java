@@ -49,4 +49,5 @@ public class TestPlanetExplorer {
 		System.out.println(expectResult);
 		assertEquals("(102,102,E)", expectResult);
 	}
+	
 }
