@@ -30,7 +30,7 @@ public class PlanetExplorer {
 		
 	}
 	
-	PlanetExplorer explorer =  new PlanetExplorer(x, y, facing, obstacles);
+	
 	
 	public String executeCommand(String command){
 		
@@ -44,6 +44,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		String result = "";
+		PlanetExplorer explorer =  new PlanetExplorer(x, y, facing, obstacles);
 		
 		if(command == "" || command == null){
 			result = "(0,0,N)"+ explorer.obstacles;
