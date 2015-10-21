@@ -5,7 +5,12 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time:
 public class PlanetExplorer {
 	
-	public PlanetExplorer(int x, int y, String facing, String obstacles){
+	int x = 0;
+	int y = 0;
+	String facing = "";
+	String obstacles = "";
+	
+	public PlanetExplorer(int x1, int y1, String facing1, String obstacles1){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
@@ -18,6 +23,10 @@ public class PlanetExplorer {
 		if(facing==""){
 			facing = "N";
 		}
+		x = x1;
+		y = y1;
+		facing = facing1;
+		obstacles = obstacles1;
 		
 	}
 	/*int x = 0;
@@ -42,7 +51,7 @@ public class PlanetExplorer {
 		
 		
 		if(command == ""){
-			result = "(0,0,N)"+ ;
+			result = "(0,0,N)"+ explorer.obstacles;
 		}else{
 			for(int i=0; i<= command.length(); i++){
 				commandAction(command.charAt(i), explorer);

@@ -74,3 +74,78 @@ CompilationAction 1445432127102 PlanetExplorer.java
 CompilationAction 1445432127102 PlanetExplorer.java
 CompilationAction 1445432127103 PlanetExplorer.java
 EditAction 1445432170599 PlanetExplorer.java 3158 3 3 0
+CompilationAction 1445432170870 PlanetExplorer.java
+CompilationAction 1445432170870 PlanetExplorer.java
+CompilationAction 1445432170870 PlanetExplorer.java
+CompilationAction 1445432170871 PlanetExplorer.java
+CompilationAction 1445432170871 PlanetExplorer.java
+CompilationAction 1445432170871 PlanetExplorer.java
+CompilationAction 1445432170871 PlanetExplorer.java
+CompilationAction 1445432170871 PlanetExplorer.java
+CompilationAction 1445432170872 PlanetExplorer.java
+RefactoringAction 1445432240650 PlanetExplorer.java RENAME PlanetExplorer(int, int, String, String)=>int x FIELD
+RefactoringAction 1445432245182 PlanetExplorer.java REMOVE explorer FIELD
+RefactoringAction 1445432262289 PlanetExplorer.java RENAME obstacles=>String facing FIELD
+RefactoringAction 1445432265309 PlanetExplorer.java RENAME String=>String obstacles FIELD
+CompilationAction 1445432285744 PlanetExplorer.java
+CompilationAction 1445432285744 PlanetExplorer.java
+CompilationAction 1445432285744 PlanetExplorer.java
+CompilationAction 1445432285745 PlanetExplorer.java
+CompilationAction 1445432285745 PlanetExplorer.java
+CompilationAction 1445432285745 PlanetExplorer.java
+CompilationAction 1445432285745 PlanetExplorer.java
+CompilationAction 1445432285746 PlanetExplorer.java
+CompilationAction 1445432285746 PlanetExplorer.java
+CompilationAction 1445432285876 PlanetExplorer.java
+CompilationAction 1445432285876 PlanetExplorer.java
+CompilationAction 1445432285876 PlanetExplorer.java
+CompilationAction 1445432285877 PlanetExplorer.java
+CompilationAction 1445432285877 PlanetExplorer.java
+CompilationAction 1445432285877 PlanetExplorer.java
+CompilationAction 1445432285877 PlanetExplorer.java
+CompilationAction 1445432285877 PlanetExplorer.java
+CompilationAction 1445432285878 PlanetExplorer.java
+CompilationAction 1445432285878 TestPlanetExplorer.java
+RefactoringAction 1445432297973 PlanetExplorer.java RENAME PlanetExplorer()=>PlanetExplorer(int) METHOD
+RefactoringAction 1445432300491 PlanetExplorer.java RENAME PlanetExplorer(int)=>PlanetExplorer(int, int) METHOD
+RefactoringAction 1445432303010 PlanetExplorer.java RENAME PlanetExplorer(int, int)=>PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1445432308028 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>PlanetExplorer(int, int, String, String) METHOD
+CompilationAction 1445432308993 PlanetExplorer.java
+CompilationAction 1445432308993 PlanetExplorer.java
+CompilationAction 1445432308994 PlanetExplorer.java
+CompilationAction 1445432308994 PlanetExplorer.java
+CompilationAction 1445432308995 PlanetExplorer.java
+CompilationAction 1445432308995 PlanetExplorer.java
+CompilationAction 1445432308996 PlanetExplorer.java
+CompilationAction 1445432308997 PlanetExplorer.java
+CompilationAction 1445432308997 PlanetExplorer.java
+CompilationAction 1445432309130 PlanetExplorer.java
+RefactoringAction 1445432312554 PlanetExplorer.java REMOVE x FIELD
+RefactoringAction 1445432312554 PlanetExplorer.java REMOVE facing FIELD
+RefactoringAction 1445432312555 PlanetExplorer.java REMOVE y FIELD
+RefactoringAction 1445432312555 PlanetExplorer.java REMOVE obstacles FIELD
+CompilationAction 1445432313407 PlanetExplorer.java
+CompilationAction 1445432313535 PlanetExplorer.java
+CompilationAction 1445432313535 PlanetExplorer.java
+CompilationAction 1445432313535 PlanetExplorer.java
+CompilationAction 1445432313535 PlanetExplorer.java
+CompilationAction 1445432313536 PlanetExplorer.java
+CompilationAction 1445432313536 PlanetExplorer.java
+CompilationAction 1445432313536 PlanetExplorer.java
+CompilationAction 1445432313536 PlanetExplorer.java
+CompilationAction 1445432313536 PlanetExplorer.java
+RefactoringAction 1445432327874 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445432327875 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1445432327875 PlanetExplorer.java ADD String facing FIELD
+RefactoringAction 1445432327876 PlanetExplorer.java ADD String obstacles FIELD
+CompilationAction 1445432388071 PlanetExplorer.java
+CompilationAction 1445432388071 PlanetExplorer.java
+CompilationAction 1445432388072 PlanetExplorer.java
+CompilationAction 1445432388072 PlanetExplorer.java
+CompilationAction 1445432388072 PlanetExplorer.java
+CompilationAction 1445432388072 PlanetExplorer.java
+CompilationAction 1445432388073 PlanetExplorer.java
+CompilationAction 1445432388073 PlanetExplorer.java
+CompilationAction 1445432388073 PlanetExplorer.java
+CompilationAction 1445432388227 PlanetExplorer.java
+EditAction 1445432398732 PlanetExplorer.java 3326 3 10 0
