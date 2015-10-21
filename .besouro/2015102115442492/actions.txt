@@ -296,3 +296,4 @@ UnitTestSessionAction 1445433506870 TestPlanetExplorer OK
 RefactoringAction 1445433515176 TestPlanetExplorer.java ADD void testPlanetExplorerMoveAndTurnFromLanding()/2 METHOD
 RefactoringAction 1445433559191 TestPlanetExplorer.java REMOVE testPlanetExplorerMoveAndTurnFromLanding()/2 METHOD
 EditAction 1445433559701 TestPlanetExplorer.java 1763 6 19 6
+EditAction 1445433736106 PlanetExplorer.java 3287 3 11 0
