@@ -1,17 +1,30 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
+// ID:	
 // Finish time:
 public class PlanetExplorer {
-	public PlanetExplorer(int x, int y, String obstacles){
+	
+	public PlanetExplorer(int x, int y, String facing, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		if(x==0 && y==0){
+			facing = "N";
+		}
+		if(facing==""){
+			facing = "N";
+		}
+		
 	}
+	int x = 0;
+	int y = 0;
+	String facing = "";
+	String obstacles = "";
+	PlanetExplorer explorer = new PlanetExplorer(x, y, facing, obstacles);
 	
 	public String executeCommand(String command){
 		
@@ -24,7 +37,75 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		String result = "";
 		
-		return null;
+		
+		if(command == ""){
+			result = "(0,0,N)"+obstacles;
+		}else{
+			for(int i=0; i<= command.length(); i++){
+				commandAction(command.charAt(i), explorer);
+			}
+			
+			result = "(" + explorer.x + "," + explorer.y + "," + explorer.facing + ")" + explorer.obstacles;
+		}
+		
+		return result;
+	}
+	
+	public void commandAction(char commandChar, PlanetExplorer explorer){
+		if(explorer.facing == "N"){ //Check the current facing of explorer
+			if(commandChar == 'f'){
+				explorer.y++;
+			}
+			if(commandChar == 'b'){
+				explorer.y--;
+			}
+			if(commandChar == 'l'){
+				explorer.facing = "W";
+			}
+			if(commandChar == 'r'){
+				explorer.facing = "E";
+			}
+		}else if(explorer.facing == "E"){
+			if(commandChar == 'f'){
+				explorer.x++;
+			}
+			if(commandChar == 'b'){
+				explorer.x--;
+			}
+			if(commandChar == 'l'){
+				explorer.facing = "N";
+			}
+			if(commandChar == 'r'){
+				explorer.facing = "S";
+			}
+		}else if(explorer.facing == "S"){
+			if(commandChar == 'f'){
+				explorer.y--;
+			}
+			if(commandChar == 'b'){
+				explorer.y++;
+			}
+			if(commandChar == 'l'){
+				explorer.facing = "E";
+			}
+			if(commandChar == 'r'){
+				explorer.facing = "W";
+			}
+		}else if(explorer.facing == "W"){
+			if(commandChar == 'f'){
+				explorer.x--;
+			}
+			if(commandChar == 'b'){
+				explorer.x++;
+			}
+			if(commandChar == 'l'){
+				explorer.facing = "S";
+			}
+			if(commandChar == 'r'){
+				explorer.facing = "N";
+			}
+		}
 	}
 }
