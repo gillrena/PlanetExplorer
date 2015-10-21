@@ -17,10 +17,10 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		if(x==0 && y==0){
+		if(x1==0 && y1==0){
 			facing = "N";
 		}
-		if(facing==""){
+		if(facing1==""){
 			facing = "N";
 		}
 		x = x1;
