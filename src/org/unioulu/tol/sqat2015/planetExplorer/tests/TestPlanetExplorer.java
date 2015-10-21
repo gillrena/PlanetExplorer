@@ -36,6 +36,6 @@ public class TestPlanetExplorer {
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "", "");
 		String expectResult = planetExplorer.executeCommand("f");
 		System.out.println(expectResult);
-		assertEquals("(100,100,E)", expectResult);
+		assertEquals("(100,101,N)", expectResult);
 	}
 }

@@ -270,3 +270,4 @@ UnitTestSessionAction 1445433330124 TestPlanetExplorer OK
 RefactoringAction 1445433335484 TestPlanetExplorer.java ADD void testPlanetExplorerTurningRightFromLanding()/2 METHOD
 EditAction 1445433345266 TestPlanetExplorer.java 1363 4 16 4
 EditAction 1445433348912 TestPlanetExplorer.java 1363 4 16 4
+EditAction 1445433357980 TestPlanetExplorer.java 1363 4 16 4
