@@ -42,3 +42,35 @@ RefactoringAction 1445431833297 PlanetExplorer.java ADD String result FIELD
 RefactoringAction 1445431834820 PlanetExplorer.java ADD PlanetExplorer explorer FIELD
 RefactoringAction 1445431834820 PlanetExplorer.java ADD String executeCommand(String) METHOD
 EditAction 1445431844193 PlanetExplorer.java 3155 3 6 0
+CompilationAction 1445431844419 PlanetExplorer.java
+CompilationAction 1445431844419 PlanetExplorer.java
+CompilationAction 1445431844419 PlanetExplorer.java
+CompilationAction 1445431844420 PlanetExplorer.java
+CompilationAction 1445431852241 PlanetExplorer.java
+CompilationAction 1445431852242 PlanetExplorer.java
+CompilationAction 1445431852242 PlanetExplorer.java
+CompilationAction 1445431852242 PlanetExplorer.java
+CompilationAction 1445431852558 PlanetExplorer.java
+CompilationAction 1445431852559 PlanetExplorer.java
+CompilationAction 1445431852559 PlanetExplorer.java
+CompilationAction 1445431852560 PlanetExplorer.java
+CompilationAction 1445431852560 PlanetExplorer.java
+RefactoringAction 1445431910034 PlanetExplorer.java REMOVE explorer FIELD
+RefactoringAction 1445431925127 PlanetExplorer.java ADD PlanetExplorer explorer FIELD
+RefactoringAction 1445431974140 PlanetExplorer.java REMOVE explorer FIELD
+RefactoringAction 1445431983160 PlanetExplorer.java ADD PlanetExplorer explorer FIELD
+CompilationAction 1445432126948 PlanetExplorer.java
+CompilationAction 1445432126948 PlanetExplorer.java
+CompilationAction 1445432126949 PlanetExplorer.java
+CompilationAction 1445432126949 PlanetExplorer.java
+CompilationAction 1445432126949 PlanetExplorer.java
+CompilationAction 1445432127101 PlanetExplorer.java
+CompilationAction 1445432127101 PlanetExplorer.java
+CompilationAction 1445432127101 PlanetExplorer.java
+CompilationAction 1445432127102 PlanetExplorer.java
+CompilationAction 1445432127102 PlanetExplorer.java
+CompilationAction 1445432127102 PlanetExplorer.java
+CompilationAction 1445432127102 PlanetExplorer.java
+CompilationAction 1445432127102 PlanetExplorer.java
+CompilationAction 1445432127103 PlanetExplorer.java
+EditAction 1445432170599 PlanetExplorer.java 3158 3 3 0

@@ -25,7 +25,7 @@ public class PlanetExplorer {
 	String facing = "";
 	String obstacles = "";
 	PlanetExplorer explorer = new PlanetExplorer(x, y, facing, obstacles);*/
-	PlanetExplorer explorer = PlanetExplorer.this;
+	PlanetExplorer explorer = new PlanetExplorer(x,y,facing,obstacles);
 	
 	public String executeCommand(String command){
 		
@@ -42,7 +42,7 @@ public class PlanetExplorer {
 		
 		
 		if(command == ""){
-			result = "(0,0,N)"+ explorer.obstacles;
+			result = "(0,0,N)"+ ;
 		}else{
 			for(int i=0; i<= command.length(); i++){
 				commandAction(command.charAt(i), explorer);
