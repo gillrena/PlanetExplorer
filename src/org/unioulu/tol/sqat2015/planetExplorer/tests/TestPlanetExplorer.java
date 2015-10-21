@@ -10,7 +10,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testPlanetLanding() {
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "", "");
-		String expectResult = planetExplorer.executeCommand("f");
+		String expectResult = planetExplorer.executeCommand(null);
 		System.out.println(expectResult);
 	}
 }
