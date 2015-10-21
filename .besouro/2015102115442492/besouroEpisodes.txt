@@ -22,3 +22,8 @@
 1445432599389 test-first 1 1134 true
 1445432599390 test-first 1 1134 true
 1445432599391 test-first 1 1134 true
+1445432826446 refactoring 3 199 true
+1445432826447 refactoring 3 199 true
+1445432826448 refactoring 3 199 true
+1445432826449 refactoring 3 199 true
+1445432826450 refactoring 3 199 true
