@@ -34,7 +34,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testPlanetExplorerMoveForwardFromLanding() {
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "", "");
-		String expectResult = planetExplorer.executeCommand("r");
+		String expectResult = planetExplorer.executeCommand("f");
 		System.out.println(expectResult);
 		assertEquals("(100,100,E)", expectResult);
 	}
