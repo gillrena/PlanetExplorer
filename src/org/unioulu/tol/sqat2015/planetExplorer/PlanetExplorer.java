@@ -20,7 +20,7 @@ public class PlanetExplorer {
 		if(x1==0 && y1==0){
 			facing = "N";
 		}
-		if(facing1==""){
+		if(facing1=="" || facing1 == null){
 			facing = "N";
 		}
 		x = x1;
