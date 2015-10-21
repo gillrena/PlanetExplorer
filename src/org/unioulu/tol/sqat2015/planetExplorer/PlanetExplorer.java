@@ -60,7 +60,7 @@ public class PlanetExplorer {
 	}
 	
 	public void commandAction(char commandChar, PlanetExplorer explorer){
-		if(explorer.facing == "N"){ //Check the current facing of explorer
+		if(explorer.facing == "N" || explorer.facing == ""){ //Check the current facing of explorer
 			if(commandChar == 'f'){
 				explorer.y++;
 			}
