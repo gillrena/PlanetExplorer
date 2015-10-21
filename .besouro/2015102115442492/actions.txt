@@ -23,3 +23,22 @@ CompilationAction 1445431741297 PlanetExplorer.java
 CompilationAction 1445431741298 PlanetExplorer.java
 CompilationAction 1445431741298 PlanetExplorer.java
 EditAction 1445431774541 PlanetExplorer.java 3155 3 6 0
+CompilationAction 1445431774808 PlanetExplorer.java
+CompilationAction 1445431774809 PlanetExplorer.java
+CompilationAction 1445431774809 PlanetExplorer.java
+CompilationAction 1445431774809 PlanetExplorer.java
+RefactoringAction 1445431785566 PlanetExplorer.java REMOVE explorer FIELD
+RefactoringAction 1445431790113 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445431790114 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1445431790114 PlanetExplorer.java ADD String facing FIELD
+RefactoringAction 1445431790115 PlanetExplorer.java ADD String obstacles FIELD
+RefactoringAction 1445431790115 PlanetExplorer.java ADD PlanetExplorer explorer FIELD
+CompilationAction 1445431792254 PlanetExplorer.java
+CompilationAction 1445431792254 PlanetExplorer.java
+CompilationAction 1445431792254 PlanetExplorer.java
+CompilationAction 1445431792255 PlanetExplorer.java
+RefactoringAction 1445431828772 PlanetExplorer.java ADD PlanetExplorer explorer/2 FIELD
+RefactoringAction 1445431833297 PlanetExplorer.java ADD String result FIELD
+RefactoringAction 1445431834820 PlanetExplorer.java ADD PlanetExplorer explorer FIELD
+RefactoringAction 1445431834820 PlanetExplorer.java ADD String executeCommand(String) METHOD
+EditAction 1445431844193 PlanetExplorer.java 3155 3 6 0
