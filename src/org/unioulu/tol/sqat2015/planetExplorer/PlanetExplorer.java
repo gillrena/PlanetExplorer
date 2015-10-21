@@ -42,7 +42,7 @@ public class PlanetExplorer {
 		
 		
 		if(command == ""){
-			result = "(0,0,N)"+obstacles;
+			result = "(0,0,N)"+ explorer.obstacles;
 		}else{
 			for(int i=0; i<= command.length(); i++){
 				commandAction(command.charAt(i), explorer);

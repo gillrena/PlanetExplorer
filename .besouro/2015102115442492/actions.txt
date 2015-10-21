@@ -8,3 +8,18 @@ RefactoringAction 1445431667507 PlanetExplorer.java ADD String executeCommand(St
 RefactoringAction 1445431677549 PlanetExplorer.java ADD String result FIELD
 RefactoringAction 1445431711483 PlanetExplorer.java ADD PlanetExplorer explorer FIELD
 EditAction 1445431724773 PlanetExplorer.java 3145 3 6 0
+CompilationAction 1445431725081 PlanetExplorer.java
+CompilationAction 1445431725081 PlanetExplorer.java
+CompilationAction 1445431725082 PlanetExplorer.java
+CompilationAction 1445431725082 PlanetExplorer.java
+CompilationAction 1445431725083 PlanetExplorer.java
+CompilationAction 1445431741141 PlanetExplorer.java
+CompilationAction 1445431741142 PlanetExplorer.java
+CompilationAction 1445431741143 PlanetExplorer.java
+CompilationAction 1445431741143 PlanetExplorer.java
+CompilationAction 1445431741144 PlanetExplorer.java
+CompilationAction 1445431741296 PlanetExplorer.java
+CompilationAction 1445431741297 PlanetExplorer.java
+CompilationAction 1445431741298 PlanetExplorer.java
+CompilationAction 1445431741298 PlanetExplorer.java
+EditAction 1445431774541 PlanetExplorer.java 3155 3 6 0
