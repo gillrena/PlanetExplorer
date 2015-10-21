@@ -24,7 +24,7 @@ public class PlanetExplorer {
 			facing = "N";
 		}
 		if(obstacles == "" || obstacles == null){
-			obstacles == ""
+			obstacles == "";
 		}
 		x = x1;
 		y = y1;
