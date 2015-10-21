@@ -23,9 +23,6 @@ public class PlanetExplorer {
 		if(facing1=="" || facing1 == null){
 			facing = "N";
 		}
-		if(obstacles == "" || obstacles == null){
-			obstacles == "";
-		}
 		x = x1;
 		y = y1;
 		facing = facing1;
