@@ -26,8 +26,8 @@ public class TestPlanetExplorer {
 	@Test
 	public void testPlanetExplorerTurningRightFromLanding() {
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "", "");
-		String expectResult = planetExplorer.executeCommand("l");
+		String expectResult = planetExplorer.executeCommand("r");
 		System.out.println(expectResult);
-		assertEquals("(100,100,W)", expectResult);
+		assertEquals("(100,100,E)", expectResult);
 	}
 }
