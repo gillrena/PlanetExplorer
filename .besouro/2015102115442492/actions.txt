@@ -282,3 +282,10 @@ CompilationAction 1445433428658 TestPlanetExplorer.java
 CompilationAction 1445433436128 TestPlanetExplorer.java
 EditAction 1445433443685 TestPlanetExplorer.java 1539 5 17 5
 EditAction 1445433446609 TestPlanetExplorer.java 1502 5 16 5
+UnitTestCaseAction 1445433448166 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445433448167 TestPlanetExplorer OK
+RefactoringAction 1445433457984 TestPlanetExplorer.java ADD void testPlanetExplorerMoveBackFromLanding()/2 METHOD
+RefactoringAction 1445433470000 TestPlanetExplorer.java RENAME testPlanetExplorerMoveBackFromLanding()/2=>void testPlanetExplorerMoveFromLanding() METHOD
+RefactoringAction 1445433471512 TestPlanetExplorer.java RENAME testPlanetExplorerMoveFromLanding()=>void testPlanetExplorerMoveAndFromLanding() METHOD
+RefactoringAction 1445433473027 TestPlanetExplorer.java RENAME testPlanetExplorerMoveAndFromLanding()=>void testPlanetExplorerMoveAndTurnFromLanding() METHOD
+EditAction 1445433475724 TestPlanetExplorer.java 1792 6 20 6

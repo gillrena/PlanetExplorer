@@ -42,4 +42,12 @@ public class TestPlanetExplorer {
 		System.out.println(expectResult);
 		assertEquals("(100,99,N)", expectResult);
 	}
+	
+	@Test
+	public void testPlanetExplorerMoveAndTurnFromLanding() {
+		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "", "");
+		String expectResult = planetExplorer.executeCommand("b");
+		System.out.println(expectResult);
+		assertEquals("(100,99,N)", expectResult);
+	}
 }
