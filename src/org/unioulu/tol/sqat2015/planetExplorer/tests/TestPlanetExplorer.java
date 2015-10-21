@@ -14,4 +14,12 @@ public class TestPlanetExplorer {
 		System.out.println(expectResult);
 		assertEquals("(0,0,N)", expectResult);
 	}
+	
+	@Test
+	public void testPlanetExplorerTurningLeftFromLanding() {
+		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "", "");
+		String expectResult = planetExplorer.executeCommand("");
+		System.out.println(expectResult);
+		assertEquals("(0,0,N)", expectResult);
+	}
 }

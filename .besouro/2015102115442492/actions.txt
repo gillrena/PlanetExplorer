@@ -222,3 +222,10 @@ UnitTestCaseAction 1445432948062 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445432948063 TestPlanetExplorer FAIL
 EditAction 1445432965976 PlanetExplorer.java 3224 3 11 0
 EditAction 1445432973719 TestPlanetExplorer.java 485 1 4 1
+UnitTestCaseAction 1445432974931 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445432974931 TestPlanetExplorer OK
+RefactoringAction 1445432982351 TestPlanetExplorer.java ADD void testPlanetLanding()/2 METHOD
+RefactoringAction 1445432989862 TestPlanetExplorer.java RENAME testPlanetLanding()/2=>void testPlanetMove() METHOD
+RefactoringAction 1445432995874 TestPlanetExplorer.java RENAME testPlanetMove()=>void testPlane() METHOD
+RefactoringAction 1445432998882 TestPlanetExplorer.java RENAME testPlane()=>void testPlanetTurning() METHOD
+EditAction 1445433013174 TestPlanetExplorer.java 771 2 8 2
