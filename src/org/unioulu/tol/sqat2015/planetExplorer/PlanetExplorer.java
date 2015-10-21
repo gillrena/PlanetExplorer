@@ -47,7 +47,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer =  new PlanetExplorer(x, y, facing, obstacles);
 		
 		if(command == "" || command == null){
-			result = "(0,0,N)"+ explorer.obstacles;
+			result = "(" + explorer.x + "," + explorer.y + "," + explorer.facing + ")" + explorer.obstacles;
+			
 		}else{
 			for(int i=0; i< command.length(); i++){
 				commandAction(command.charAt(i), explorer);
