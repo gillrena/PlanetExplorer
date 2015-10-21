@@ -154,3 +154,4 @@ UnitTestSessionAction 1445432407212 TestPlanetExplorer FAIL
 RefactoringAction 1445432453416 PlanetExplorer.java REMOVE explorer FIELD
 RefactoringAction 1445432469497 PlanetExplorer.java ADD PlanetExplorer explorer FIELD
 EditAction 1445432481911 PlanetExplorer.java 3182 3 10 0
+EditAction 1445432524052 TestPlanetExplorer.java 449 1 3 0
