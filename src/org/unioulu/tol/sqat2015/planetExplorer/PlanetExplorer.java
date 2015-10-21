@@ -30,7 +30,7 @@ public class PlanetExplorer {
 		
 	}
 	
-	PlanetExplorer explorer = new PlanetExplorer(x, y, facing, obstacles);
+	this.explorer =  PlanetExplorer(x, y, facing, obstacles);
 	
 	public String executeCommand(String command){
 		
